@@ -1,6 +1,7 @@
 # How to create a mod (BASICS)
 
 - All code for this project is within this repository!
+- This guide assumes that you have a basic understanding of java
 
 ## Part 1: Setup
 
