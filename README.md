@@ -1,5 +1,7 @@
 # How to create a mod (BASICS)
 
+- All code for this project is within this repository!
+
 ## Part 1: Setup
 
 - Setting up the mod is probably the hardest part about coding minecraft mods. Please follow these steps exactly how they are so you do not run into any issues. In addition to that I am using intellij for this tutorial, you can download the IDE here: https://www.jetbrains.com/idea/download/#sectio
