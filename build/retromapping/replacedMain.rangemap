@@ -1,42 +1,83 @@
 Symbol range map extraction starting
-Processing 1 files
+Processing 2 files
 processing com\miqhtie\testmod\TestMod.java
 @|com\miqhtie\testmod\TestMod.java|8|27|com.miqhtie.testmod|package|com.miqhtie.testmod|(file)
 Class Start: com.miqhtie.testmod.TestMod
-   @|com\miqhtie\testmod\TestMod.java|594|600|String|class|java.lang.String
-   @|com\miqhtie\testmod\TestMod.java|601|606|MODID|field|com.miqhtie.testmod.TestMod|MODID|
-   @|com\miqhtie\testmod\TestMod.java|644|650|String|class|java.lang.String
-   @|com\miqhtie\testmod\TestMod.java|651|658|VERSION|field|com.miqhtie.testmod.TestMod|VERSION|
+   @|com\miqhtie\testmod\TestMod.java|698|704|String|class|java.lang.String
+   @|com\miqhtie\testmod\TestMod.java|705|710|MODID|field|com.miqhtie.testmod.TestMod|MODID|
+   @|com\miqhtie\testmod\TestMod.java|748|754|String|class|java.lang.String
+   @|com\miqhtie\testmod\TestMod.java|755|762|VERSION|field|com.miqhtie.testmod.TestMod|VERSION|
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\miqhtie\testmod\TestMod.java|707|711|init|method|com.miqhtie.testmod.TestMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\miqhtie\testmod\TestMod.java|712|734|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|com\miqhtie\testmod\TestMod.java|735|740|event|param|com.miqhtie.testmod.TestMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|com\miqhtie\testmod\TestMod.java|756|770|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|com\miqhtie\testmod\TestMod.java|771|780|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|com\miqhtie\testmod\TestMod.java|781|789|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\miqhtie\testmod\TestMod.java|811|815|init|method|com.miqhtie.testmod.TestMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\miqhtie\testmod\TestMod.java|816|838|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\miqhtie\testmod\TestMod.java|839|844|event|param|com.miqhtie.testmod.TestMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\miqhtie\testmod\TestMod.java|860|874|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\miqhtie\testmod\TestMod.java|875|884|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\miqhtie\testmod\TestMod.java|885|893|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\miqhtie\testmod\TestMod.java|909|929|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\miqhtie\testmod\TestMod.java|930|938|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\miqhtie\testmod\TestMod.java|939|954|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\miqhtie\testmod\TestMod.java|959|970|TestCommand|class|com.miqhtie.testmod.commands.TestCommand
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: chat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
-      @|com\miqhtie\testmod\TestMod.java|840|844|chat|method|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
-      @|com\miqhtie\testmod\TestMod.java|845|868|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
-      @|com\miqhtie\testmod\TestMod.java|869|874|event|param|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
-      @|com\miqhtie\testmod\TestMod.java|889|894|event|param|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
-      @|com\miqhtie\testmod\TestMod.java|895|902|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
-      @|com\miqhtie\testmod\TestMod.java|903|921|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
-      @|com\miqhtie\testmod\TestMod.java|924|935|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
-      @|com\miqhtie\testmod\TestMod.java|938|946|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
-      @|com\miqhtie\testmod\TestMod.java|972|977|event|param|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
-      @|com\miqhtie\testmod\TestMod.java|978|989|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
-      @|com\miqhtie\testmod\TestMod.java|1005|1011|String|class|java.lang.String
-      @|com\miqhtie\testmod\TestMod.java|1021|1026|event|param|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
-      @|com\miqhtie\testmod\TestMod.java|1027|1034|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
-      @|com\miqhtie\testmod\TestMod.java|1035|1051|getFormattedText|method|net.minecraft.util.IChatComponent|getFormattedText|()Ljava/lang/String;
-      @|com\miqhtie\testmod\TestMod.java|1054|1064|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-      @|com\miqhtie\testmod\TestMod.java|1102|1111|Minecraft|class|net.minecraft.client.Minecraft
-      @|com\miqhtie\testmod\TestMod.java|1112|1124|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|com\miqhtie\testmod\TestMod.java|1127|1136|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
-      @|com\miqhtie\testmod\TestMod.java|1137|1160|addChatComponentMessage|method|net.minecraft.entity.player.EntityPlayer|addChatComponentMessage|(Lnet/minecraft/util/IChatComponent;)V
-      @|com\miqhtie\testmod\TestMod.java|1165|1182|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\miqhtie\testmod\TestMod.java|1019|1023|chat|method|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\miqhtie\testmod\TestMod.java|1024|1047|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|com\miqhtie\testmod\TestMod.java|1048|1053|event|param|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|com\miqhtie\testmod\TestMod.java|1068|1073|event|param|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|com\miqhtie\testmod\TestMod.java|1074|1081|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\miqhtie\testmod\TestMod.java|1082|1100|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\miqhtie\testmod\TestMod.java|1103|1114|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com\miqhtie\testmod\TestMod.java|1117|1125|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\miqhtie\testmod\TestMod.java|1151|1156|event|param|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|com\miqhtie\testmod\TestMod.java|1157|1168|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\miqhtie\testmod\TestMod.java|1184|1190|String|class|java.lang.String
+      @|com\miqhtie\testmod\TestMod.java|1200|1205|event|param|com.miqhtie.testmod.TestMod|chat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|event|0
+      @|com\miqhtie\testmod\TestMod.java|1206|1213|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\miqhtie\testmod\TestMod.java|1214|1230|getFormattedText|method|net.minecraft.util.IChatComponent|getFormattedText|()Ljava/lang/String;
+      @|com\miqhtie\testmod\TestMod.java|1233|1243|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com\miqhtie\testmod\TestMod.java|1281|1290|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\miqhtie\testmod\TestMod.java|1291|1303|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\miqhtie\testmod\TestMod.java|1306|1315|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\miqhtie\testmod\TestMod.java|1316|1339|addChatComponentMessage|method|net.minecraft.entity.player.EntityPlayer|addChatComponentMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\miqhtie\testmod\TestMod.java|1344|1361|ChatComponentText|class|net.minecraft.util.ChatComponentText
    Method End: chat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
 Class End  : com.miqhtie.testmod.TestMod
 endProcessing com\miqhtie\testmod\TestMod.java
+
+processing com\miqhtie\testmod\commands\TestCommand.java
+@|com\miqhtie\testmod\commands\TestCommand.java|8|36|com.miqhtie.testmod.commands|package|com.miqhtie.testmod.commands|(file)
+Class Start: com.miqhtie.testmod.commands.TestCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\miqhtie\testmod\commands\TestCommand.java|383|397|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\miqhtie\testmod\commands\TestCommand.java|376|382|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\miqhtie\testmod\commands\TestCommand.java|467|482|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\miqhtie\testmod\commands\TestCommand.java|460|466|String|class|java.lang.String
+      @|com\miqhtie\testmod\commands\TestCommand.java|483|497|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\miqhtie\testmod\commands\TestCommand.java|498|512|iCommandSender|param|com.miqhtie.testmod.commands.TestCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|iCommandSender|0
+      @|com\miqhtie\testmod\commands\TestCommand.java|537|551|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\miqhtie\testmod\commands\TestCommand.java|592|606|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\miqhtie\testmod\commands\TestCommand.java|663|679|CommandException|class|net.minecraft.command.CommandException
+      @|com\miqhtie\testmod\commands\TestCommand.java|607|621|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\miqhtie\testmod\commands\TestCommand.java|622|636|iCommandSender|param|com.miqhtie.testmod.commands.TestCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|iCommandSender|0
+      @|com\miqhtie\testmod\commands\TestCommand.java|638|644|String|class|java.lang.String
+      @|com\miqhtie\testmod\commands\TestCommand.java|647|654|strings|param|com.miqhtie.testmod.commands.TestCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|strings|1
+      @|com\miqhtie\testmod\commands\TestCommand.java|690|699|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\miqhtie\testmod\commands\TestCommand.java|700|712|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\miqhtie\testmod\commands\TestCommand.java|715|724|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\miqhtie\testmod\commands\TestCommand.java|725|748|addChatComponentMessage|method|net.minecraft.entity.player.EntityPlayer|addChatComponentMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\miqhtie\testmod\commands\TestCommand.java|753|770|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\miqhtie\testmod\commands\TestCommand.java|771|789|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\miqhtie\testmod\commands\TestCommand.java|790|793|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|com\miqhtie\testmod\commands\TestCommand.java|806|824|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\miqhtie\testmod\commands\TestCommand.java|825|830|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: getRequiredPermissionLevel()I
+      @|com\miqhtie\testmod\commands\TestCommand.java|884|910|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+Class End  : com.miqhtie.testmod.commands.TestCommand
+endProcessing com\miqhtie\testmod\commands\TestCommand.java
 
