@@ -161,7 +161,6 @@ Picture
 
 ### Step 6: It works!
 - Now that the mod is done you can use the skills taught here to make your own mods! In the future I will expand on this and give instructions on how to make commands, and more complex things. For now though if you ever need something your best friend is google!
-- If you need any help you can contact me here or on discord (Miqhtie#0001)
 
 Picture
 
